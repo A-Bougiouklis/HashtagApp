@@ -8,7 +8,6 @@ Table of context
     • Application description 
     • How to run the application
     • Results
-    • Improvements
 
 
 Description
@@ -58,15 +57,3 @@ Results
   By changing the  constant STANDARD_DEVIATION_MULTIPLIER from the file core/constants/constants.py 
   it is easy to represent more data by altering what “common” means. 
   Finally the application has linear time and space complexity. 
-
-
-Improvements
-
-The following could be added to the application as improvements:
-
-    1. There are no Unit Tests for the written code, I performed manually tests for each function but in order to ensure
-       the stability of the application in the future Unit tests are required.
-    2. The stemming procedure can be improved. We can exploit all the nltk.postags and perform similar stemming procedures
-       also to other parts of speech such as adverbs.
-    3. The STANDARD_DEVIATION_MULTIPLIER could be an argument during the execution of the program and not a constant.
-
